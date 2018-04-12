@@ -8,6 +8,7 @@
 
 #define REDLABTAG  100
 #import "BaseViewController.h"
+
 @interface BaseViewController ()<UIGestureRecognizerDelegate>
 @property (nonatomic, strong) UIButton *btnLeftItem; /**< <#属性注释#> */
 @property (nonatomic, strong) UIButton *btnRightItem; /**< <#属性注释#> */
@@ -35,6 +36,7 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : UIColorFromHex(@"#ffffff")}];
     
@@ -86,11 +88,10 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     // Set the annular determinate mode to show task progress.
     hud.mode = MBProgressHUDModeIndeterminate;
-    hud.labelText = msg;
+    hud.label.text = msg;
     // Move to bottm center.
-    hud.yOffset = 0;
-    [hud hide:YES afterDelay:2.0f];
-    
+    hud.offset = CGPointMake(0, 0);
+    [hud hideAnimated:YES afterDelay:2.0];
 }
 
 - (void)showMsg:(NSString *)msg{
@@ -98,10 +99,10 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     // Set the annular determinate mode to show task progress.
     hud.mode = MBProgressHUDModeText;
-    hud.detailsLabelText = msg;
+    hud.detailsLabel.text = msg;
     // Move to bottm center.
-    hud.yOffset = 0;
-    [hud hide:YES afterDelay:2.0f];
+    hud.offset = CGPointMake(0, 0);
+    [hud hideAnimated:YES afterDelay:2.0];
     
 }
 
@@ -112,16 +113,17 @@
 
 
 - (void)showBtmMsg:(NSString *)msg{
-    
-    UIWindow *kw = [[UIApplication sharedApplication] keyWindow];
-    [kw makeToast:msg duration:2 position:[NSValue valueWithCGPoint:CGPointMake(kScreenWidth/2, kScreenHeight - 120)]];
+
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    // Set the annular determinate mode to show task progress.
+    hud.mode = MBProgressHUDModeText;
+    hud.detailsLabel.text = msg;
+    hud.offset = CGPointMake(0, kScreenHeight - 100);
+    [hud hideAnimated:YES afterDelay:2.0];
 }
 
 - (void)showHUD{
-    
-    
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    
 }
 
 

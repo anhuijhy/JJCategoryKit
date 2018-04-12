@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JJCategoryKitHeader.h"
 @interface BaseViewController : UIViewController
 @property (nonatomic ,strong)NSDictionary *dataDic;
 @property (nonatomic ,strong)NSMutableArray *dataList;
