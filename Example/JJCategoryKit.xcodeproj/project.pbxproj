@@ -40,7 +40,7 @@
 		0824559F88D1B437EA697253 /* Pods-JJCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJCategoryKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJCategoryKit_Tests/Pods-JJCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0BFA343CB92C2DE5CD6E97F0 /* Pods-JJCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJCategoryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJCategoryKit_Example/Pods-JJCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2CDF971AD4D757FECDD3123E /* Pods-JJCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJCategoryKit_Example/Pods-JJCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30A3B3FF2F10A74A4B3E27FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30A3B3FF2F10A74A4B3E27FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JJCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		65725B6EAF6074BBC5ABE88F /* Pods-JJCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJCategoryKit_Tests/Pods-JJCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E178B66F9AB771696CA38BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E178B66F9AB771696CA38BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B96E410E7557BA6BEA843E57 /* Pods_JJCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0B642D4661C0F1F396882B /* Pods_JJCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3F645362A0D33B1B432A787 /* JJCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JJCategoryKit.podspec; path = ../JJCategoryKit.podspec; sourceTree = "<group>"; };
+		F3F645362A0D33B1B432A787 /* JJCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JJCategoryKit.podspec; path = ../JJCategoryKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
