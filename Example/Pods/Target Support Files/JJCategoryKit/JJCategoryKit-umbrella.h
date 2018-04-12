@@ -11,6 +11,7 @@
 #endif
 
 #import "BaseViewController.h"
+#import "ConfigFile.h"
 #import "JJCollectionViewController.h"
 #import "JJTabViewController.h"
 #import "NSString+Hashing.h"
