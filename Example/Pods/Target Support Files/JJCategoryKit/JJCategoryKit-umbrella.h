@@ -10,7 +10,12 @@
 #endif
 #endif
 
-#import "RedView.h"
+#import "BaseViewController.h"
+#import "JJCollectionViewController.h"
+#import "JJTabViewController.h"
+#import "NSString+Hashing.h"
+#import "Tool.h"
+#import "UIColor+Hex.h"
 
 FOUNDATION_EXPORT double JJCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char JJCategoryKitVersionString[];

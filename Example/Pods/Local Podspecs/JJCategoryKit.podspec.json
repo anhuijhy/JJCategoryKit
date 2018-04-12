@@ -19,6 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "JJCategoryKit/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "public_header_files": "JJCategoryKit/Classes/**/*.h",
   "frameworks": "UIKit"
 }
