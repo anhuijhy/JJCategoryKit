@@ -12,8 +12,8 @@
 #import "Tool.h"
 #import "UIColor+Hex.h"
 #import "BaseViewController.h"
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 #import "EnumFile.h"
 #import "NSString+Hashing.h"
-#import "MJRefresh.h"
+#import <MJRefresh/MJRefresh.h>
 #endif /* JJCategoryKitHeader_h */

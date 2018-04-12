@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JJCategoryKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'Just a redView for Test'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/anhuijhy/JJCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'JJCategoryKit/Classes/**/*'
   
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
    s.public_header_files = 'JJCategoryKit/Classes/**/*.h'
    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MBProgressHUD'
+   s.dependency 'MJRefresh'
 end

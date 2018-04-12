@@ -1,6 +1,6 @@
 {
   "name": "JJCategoryKit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "Just a redView for Test",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/anhuijhy/JJCategoryKit",
@@ -13,12 +13,20 @@
   },
   "source": {
     "git": "https://github.com/anhuijhy/JJCategoryKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "source_files": "JJCategoryKit/Classes/**/*",
   "public_header_files": "JJCategoryKit/Classes/**/*.h",
-  "frameworks": "UIKit"
+  "frameworks": "UIKit",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ]
+  }
 }

@@ -1,15 +1,26 @@
 PODS:
-  - JJCategoryKit (1.0.0)
+  - JJCategoryKit (1.0.2):
+    - MBProgressHUD
+    - MJRefresh
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
 
 DEPENDENCIES:
   - JJCategoryKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MBProgressHUD
+    - MJRefresh
 
 EXTERNAL SOURCES:
   JJCategoryKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JJCategoryKit: 22e44b0af50e9ae4bbf5c7b8d5cd578f80183c88
+  JJCategoryKit: 8e27e0777339be8dbddd023c1798382a9ade8d4e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
 
 PODFILE CHECKSUM: c2a920a8bc35445dd5c73b2eb24cfdba31866006
 

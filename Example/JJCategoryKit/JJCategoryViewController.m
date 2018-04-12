@@ -7,7 +7,6 @@
 //
 
 #import "JJCategoryViewController.h"
-#import "RedView.h"
 
 @interface JJCategoryViewController ()
 
@@ -19,9 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    RedView *v = [[RedView alloc] init];
-    v.frame = CGRectMake(0, 44, 200, 40);
-    [ self.view addSubview:v];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -12,8 +12,10 @@
 
 #import "BaseViewController.h"
 #import "ConfigFile.h"
+#import "EnumFile.h"
+#import "JJCategoryKitHeader.h"
 #import "JJCollectionViewController.h"
-#import "JJTabViewController.h"
+#import "JJTBViewController.h"
 #import "NSString+Hashing.h"
 #import "Tool.h"
 #import "UIColor+Hex.h"
